@@ -15,9 +15,9 @@ local function buildLink(name)
     end
     
     server = string.gsub(server, "(%l)(%u)", "%1-%2")
-    server = string.gsub(server, "'", "-")
+    server = string.gsub(server, "'", "")
     local region = getRegion()
-    return "!char " .. char .. " " .. server .. " " region ..
+    return "!char " .. char .. " " .. server .. " " .. region
 end
 
 local function pasteLink(name)
@@ -47,8 +47,8 @@ local function leaderLink(self, button, down)
 end
 
 function DoomBotHelper()
-    if UnitIsPlayer("mouseover") then
-        local name, realm = UnitName("mouseover")
+    if UnitIsPlayer("target") then
+        local name, realm = UnitName("target")
         
         if realm then
             pasteLink(name .. "-" .. realm)
