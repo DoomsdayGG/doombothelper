@@ -1,0 +1,6 @@
+package-as: DoomBotHelper
+
+manual-changelog:
+    filename: CHANGES.txt
+
+license-output: LICENSE.txt

@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="DOOMBOTHELPER" category="BINDING_CATEGORY_DOOMBOTHELPER" default="CTRL-SHIFT-B">
+        DoomBotHelper()
+    </Binding>
+</Bindings>
