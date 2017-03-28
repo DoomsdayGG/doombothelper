@@ -1,7 +1,7 @@
-## Interface: 70150
+## Interface: 70200
 ## Title: WoWProgressLink
 ## Notes: Helps you create character strings to copy into discord for DoomBot!
 ## Author: Doomsday
-## Version: 1.0
+## Version: 1.2
 
 DoomBotHelper.lua
