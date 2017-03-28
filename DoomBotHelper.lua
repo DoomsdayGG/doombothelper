@@ -1,5 +1,5 @@
 BINDING_CATEGORY_DOOMBOTHELPER = "DoomBotHelper"
-BINDING_NAME_DOOMBOTHELPER = "DoomBotHelper by Doomsday"
+BINDING_NAME_DOOMBOTHELPER = "DoomBotHelper by DoomsdayGG"
 
 local function getRegion()
     local regionLabel = {"us", "kr", "eu", "tw", "cn"}

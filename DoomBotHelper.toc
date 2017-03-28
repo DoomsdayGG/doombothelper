@@ -1,7 +1,7 @@
 ## Interface: 70200
 ## Title: DoomBotHelper
 ## Notes: Helps you create character strings to copy into discord for DoomBot!
-## Author: Doomsday
+## Author: DoomsdayGG
 ## Version: 1.2
 
 DoomBotHelper.lua
