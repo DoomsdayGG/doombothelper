@@ -1,1 +1,2 @@
+v1.0 : release
 v1.2 : updated for 7.2
